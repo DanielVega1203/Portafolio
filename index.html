@@ -9,7 +9,6 @@
     <title>Portafolio DC Code</title>
 </head>
 <body>
-    //cabezera
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
@@ -25,7 +24,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
+                        <a href="#about" class="nav__link">Acerca de mi</a>
                     </li>
 
                     <li class="nav__item">
@@ -43,6 +42,9 @@
             </div>
 
             <div class="nav__buttons">
+
+                <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
+
                 <!--boton para desplegar-->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-4-line"></i>
@@ -51,7 +53,6 @@
         </nav>
     </header>
     <main class="main">
-        //inicio
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <h1 class="home__name">
@@ -81,9 +82,8 @@
             </div>
             <div class="home__info">
                 <p class="home__description">
-                    <b> Web Developer </b>, with know in Web
-                    development and desing. I offer the best
-                    projects resulting in quality work.
+                    <b> Desarrollador Web </b>, con conocimiento en desarrollo y diseño web. 
+                    Ofrezco los mejores proyectos resultando en un trabajo de calidad.
                 </p>
                 <a href="#about" class="home__scroll">
                     <div class="home__scroll-box">
@@ -95,27 +95,346 @@
             </div>
         </div>
         </section>
-        //acerca de
-        <section class="avout section" id="about">
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    <span> Acerda de Mi. </span>
+                </h2>
+
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="archivos/img/about-perfil.jpg" alt="image" class="about__img">
+                        <div class="about__shadow"></div>
+                        <div class="geometric-box"></div>
+                        <img src="archivos/img/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        Apasionado por crear <b>Páginas Web</b> con
+                        <b>Interfaz de usuario UI/UX</b>, tengo años de experiencia y muchos
+                        Los clientes están contentos con los proyectos realizados.
+                    </p>
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git & GitHub,
+                            Bootstrap, Flutter & Figma  
+                        </li>
+                    </ul>
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"></i> Contactame
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
-        //servicios
-        <section class="services section">
+        <section class="services section"  id="services">
+            <h2 class="section__title-2">
+                <span> Servicios. </span>
+            </h2>
+            <div class="services__container container grid">
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                                <i class="ri-layout-3-line"></i>
+                        </div>
+                        <h2 class="services__title">Diseño Web</h2>
+                        <p class="services__description">
+                            Hermosos y elegantes diseños con interfaces intuitivas, 
+                            eficientes y agradables de usar para el usuario.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                                 <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <h2 class="services__title"> Desarrollador </h2>
+                        <p class="services__description">
+                            Desarrollo web personalizado adaptado a sus especificaciones,
+                            diseñado para proporcionar una experiencia de usuario impecable
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                                <i class="ri-smartphone-line"></i>
+                        </div>
+                        <h2 class="services__title"> Aplicacion Movil </h2>
+                        <p class="services__description">
+                            Diseñe y transforme proyectos de sitios web en 
+                            aplicaciones móviles para brindar una experiencia de usuario perfecta.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </section>
-        //protectos
+
         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span> Proyectos. </span>
+            </h2>
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="archivos/img/project-1.jpg" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle"> Sitio Web </h3>
+                        <h2 class="projects__title"> Restaurant </h2>
+
+                        <p class="projects__description">
+                            Proyecto que realizas en el diseño y estructura.
+                            del trazado, mostrando el diseño a petición del cliente.
+                        </p>
+                    </div>
+                    
+                    <div class="projects__buttons">
+                        <a href="https://www.github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ver
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> Ver
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="archivos/img/project-2.jpg" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle"> App </h3>
+                        <h2 class="projects__title"> Yoga App </h2>
+                        <p class="projects__description">
+                            Proyecto que realizas en el diseño y estructura.
+                            del trazado, mostrando el diseño a petición del cliente.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://www.github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ver
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> Ver
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="archivos/img/project-3.jpg" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle"> App </h3>
+                        <h2 class="projects__title"> Comida Rapida App</h2>
+                        <p class="projects__description">
+                            Proyecto que realizas en el diseño y estructura.
+                            del trazado, mostrando el diseño a petición del cliente.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://www.github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ver
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> Ver
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="archivos/img/project-1.jpg" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle"> App </h3>
+                        <h2 class="projects__title"> Coffe Delivery Website</h2>
+                        <p class="projects__description">
+                            Proyecto que realizas en el diseño y estructura.
+                            del trazado, mostrando el diseño a petición del cliente.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://www.github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ver
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> Ver
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="archivos/img/project-2.jpg" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle"> Sitio Web</h3>
+                        <h2 class="projects__title"> Barbershop</h2>
+                        <p class="projects__description">
+                            Proyecto que realizas en el diseño y estructura.
+                            del trazado, mostrando el diseño a petición del cliente.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://www.github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ver
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i> Ver
+                        </a>
+                    </div>
+                </article>
+            </div>
         </section>
-        //contacto
         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span> Contactame. </span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        Leeré todos los correos electrónicos. envíame cualquiera
+                        mensaje que quieras y me comunicaré contigo
+                    </p>
+                    <p class="contact__description-2">
+                        Necesito tu <b>Nombre</b> y tu <b>Direccion de correo</b>, 
+                        pero no recibirás nada más que tu respuesta
+                    </p>
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Enviame un mensaje
+                    </h2>
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Nombre completo">
+                                <label for="name" class="contact__label"> Nombre completo </label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Correo">
+                                <label for="email" class="contact__label"> Correo </label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Asunto">
+                                <label for="subject" class="contact__label"> Asunto</label>
+                            </div>
+
+                            <div class="contact__box contact__area">
+                                <textarea name="user_message" id="message"class="contact__input" required placeholder="Mensaje"></textarea>
+                                <label for="message" class="contact__label"> Mensaje </label>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button button">
+                                <i class="ri-mail-send-line"></i> Enviar Mensaje
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="archivos/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                No envía correos electrónicos
+                            </p>
+                            <p class="contact__social-description-2">
+                                Escríbeme a mis redes sociales
+                            </p>
+                        </div>
+                        <div class="contact__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    //pie de pagina
     <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link"> Acerca de mi</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="footer__link"> Servicios </a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link"> Proyectos</a>
+                </li>
+            </ul>
+            <span class="footer__copy">
+                &#169; Todos los derechos reservados por 
+                <a href="">DcCode.</a>
+            </span>
+        </div>
     </footer>
-    //scroll up
-    //scrollreveal
+    <a href="" class="scroll_up" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
     <script src=""></script>
-    //email js
-    //main js
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="archivos/js/main.js"></script>
 </body>
 </html>
