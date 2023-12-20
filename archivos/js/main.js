@@ -20,7 +20,7 @@ if (navClose) {
     })
 }
 
-//REMOVE MENU MOBILE
+//Quitar menu movil
 const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () => {
@@ -31,7 +31,7 @@ const linkAction = () => {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-//SHADOW HEADER
+//Sombra de encabezado
 
 const shadowHeader = () => {
     const header = document.getElementById('header')
@@ -39,7 +39,7 @@ const shadowHeader = () => {
                        : header.classList.remove('shadow-header')
 }
 window.addEventListener('scroll', shadowHeader)
-//EMAIL JS
+//Contacto Email JS
 
 const contactForm = document.getElementById('contact-form'),
       contactMessage = document.getElementById('contact-message')
@@ -71,7 +71,7 @@ const sendEmail = (e) => {
 
 contactForm.addEventListener('submit', sendEmail)
 
-//SHOW SCROLL UP
+//Mostrar icono para desplegar hacia arriba
 const scrollUp = () => {
     const scrollUp = document.getElementById('scroll-up')
 
@@ -101,7 +101,7 @@ const scrollActive = () => {
 }
 window.addEventListener('scroll', scrollActive)
 
-//DARK LIGHT THEME
+//Modo Oscuro
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'ri-sun-line'
@@ -125,4 +125,15 @@ themeButton.addEventListener ('click', () => {
 })
 
 
-//SCROLL REVEAL ANIMATION
+//Animacion para revelar paginaa
+const sr = ScrollReveal ({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+})
+
+sr.reveal('.home__perfil, .about__image, .contact__mail', {origin: 'right'})
+sr.reveal('.home__name, .home__info, .about__container, .section__tittle-1, .about__info, .contact__social, .contact__data', {origin: 'left'})
+sr.reveal('.services__card, .projects__card', {interval: 100})
+
