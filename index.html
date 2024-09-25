@@ -1,638 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icono de acceso directo" href="archivos/img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" crossorigin="">
-    <link rel="stylesheet" href="archivos/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icono de acceso directo"
+      href="archivos/img/logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="archivos/css/styles.css" />
     <title>Portafolio DC Code</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <span class="nav__logo-circle">DC</span>
-                <span class="nav__logo-name">DanielCode</span>
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
-                <h3 class="nav__name">Daniel</h3>
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Inicio</a>
-                    </li>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">DC</span>
+          <span class="nav__logo-name">DanielCode</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+          <h3 class="nav__name">Daniel</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">Acerca de mi</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Acerca de mi</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Proyectos</a>
-                    </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Proyectos</a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contactame</a>
-                    </li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contactame</a
+              >
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-            <div class="nav__buttons">
+        <div class="nav__buttons">
+          <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
 
-                <i class="ri-contrast-2-line change-theme" id="theme-button"></i>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="main">
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <h1 class="home__name">
-                    Daniel Vega
-                </h1>
-            
-            <div class="home__perfil">
-                <div class="home__image">
-                    <img src="archivos/img/cv.jpg" alt="image" class="home__img">
-                    <div class="home__shadow"></div>
-                    <img src="archivos/img/curved-arrow.svg" alt="" class="home__arrow">
-                    <img src="archivos/img/random-lines.svg" alt="" class="home__line">
-                    <div class="geometric-box"></div>
-                </div>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Daniel Vega</h1>
 
-                <div class="home__social">
-                    <a href="https://www.instagram.com/dnielwrld__/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/carlos-daniel-vega-ramirez-1b39172a4/" target="_blank" class="home__social-link">
-                        <i class="ri-linkedin-fill"></i>
-                    </a>
-                    <a href="https://github.com/DanielVega1203" target="_blank" class="home__social-link">
-                        <i class="ri-github-fill"></i>
-                    </a>
-                </div>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="archivos/img/cv.jpg" alt="image" class="home__img" />
+              <div class="home__shadow"></div>
+              <img
+                src="archivos/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="archivos/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
+              <div class="geometric-box"></div>
             </div>
-            <div class="home__info">
-                <p class="home__description">
-                    <b> Desarrollador Web </b>, Enfocado en el diseño y el desarrollo frontend, 
-                    apasionado por crear experiencias intuitivas y atractivas. Combinando la creatividad 
-                    y precisión técnica para transformar ideas en interfaces funcionales y estéticas.
-                </p>
-                <a href="#about" class="home__scroll">
-                    <div class="home__scroll-box">
-                        <i class="ri-skip-down-line"></i>
-                    </div>
 
-                    <span class="home__scroll-text"> Desplazarse hacia abajo </span>
-                </a>
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/dnielwrld__/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/carlos-daniel-vega-ramirez-1b39172a4/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a
+                href="https://github.com/DanielVega1203"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
             </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b> Desarrollador Web </b>, Enfocado en el diseño y el desarrollo
+              frontend, apasionado por crear experiencias intuitivas y
+              atractivas. Combinando la creatividad y precisión técnica para
+              transformar ideas en interfaces funcionales y estéticas.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-skip-down-line"></i>
+              </div>
+
+              <span class="home__scroll-text"> Desplazarse hacia abajo </span>
+            </a>
+          </div>
         </div>
-        </section>
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    <span> Acerda de Mi. </span>
-                </h2>
-    
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="archivos/img/about-perfil.jpg" alt="image" class="about__img">
-                        <div class="about__shadow"></div>
-                        <div class="geometric-box"></div>
-                        <img src="archivos/img/random-lines.svg" alt="" class="about__line">
-                        <div class="about__box"></div>
-                    </div>
-                </div>
-    
-                <div class="about__info">
-                    <p class="about__description">
-                        Apasionado por crear <b>Páginas Web</b> con una <b>Interfaz de usuario UI/UX</b>, uso cada nueva tecnología, 
-                        ya sea un framework de JavaScript o una herramienta de diseño para una agradable interaccion. No temo a los desafíos, 
-                        viendolo como oportunidades para expandir mi conocimiento y experiencia. Me apasiona encontrar soluciones a problemas complejos y trabajar en equipo 
-                        para llevar nuestras ideas a la realidad. Creo firmemente que el aprendizaje continuo es la clave para el éxito, comprometido a seguir creciendo y mejorando en mi carrera.
-                    </p>
-                    <ul class="about__list">
-                        <div style="display: block;">
-                            <h1 style="text-decoration: underline;">Trabajos Realizados:</h1> <br>
-                            <p style="padding-bottom: 0.4em;"><span style="font-weight: bold;">Empresa:</span> Move S.A.C</p>
-                            <p style="padding-bottom: 0.4em;"><span style="font-weight: bold;">Tiempo:</span> 06/23 - 04/24</p>
-                            <p><span style="font-weight: bold;">Responsabilidad:</span></p>
-                            <p style="padding-left: 2em;">- Desarrollo del Frontend</p>
-                            <p style="padding-left: 2em;">- Maquetacion en Figma</p>
-                            <p style="padding-left: 2em;">- Fotografia para los recursos</p>
-                            <p style="padding-left: 2em;">- Inventario y Stock</p>
-                            <br>
-                            <a href="https://www.linkedin.com/in/carlos-daniel-vega-ramirez-1b39172a4/" target="_blank" class="button__ghost">
-                                <i class="ri-linkedin-box-fill"></i> Ver web
-                            </a>
-                        </div>
-                    </ul>
-                    <div class="about__buttons">
-                        <h1 style="text-decoration: underline;">Mis estudios:</h1> <br>
-                        <a href="##" class="button" onclick="showCarousel()"> 
-                            <i class="ri-expand-diagonal-2-line"></i> Mostrar
-                        </a>
-                    </div>
-                </div>
+      </section>
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span> Acerda de Mi. </span>
+          </h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="archivos/img/about-perfil.jpg"
+                alt="image"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="archivos/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
             </div>
-            <div class="carousel-container" id="carouselContainer">
-                <button class="close-button" onclick="closeCarousel()"><i class="ri-close-circle-line"></i></button>
-                <div class="carousel" id="carousel">
-                    <img src="imagen1.jpg" alt="Imagen 1" id="carouselImage">
-                    <div class="carousel-buttons">
-                        <button onclick="prevImage()"><i class="ri-arrow-left-circle-line"></i></button>
-                        <button onclick="nextImage()"><i class="ri-arrow-right-circle-line"></i></button>
-                    </div>  
-                </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              Apasionado por crear <b>Páginas Web</b> con una
+              <b>Interfaz de usuario UI/UX</b>, uso cada nueva tecnología, ya
+              sea un framework de JavaScript o una herramienta de diseño para
+              una agradable interaccion. No temo a los desafíos, viendolo como
+              oportunidades para expandir mi conocimiento y experiencia. Me
+              apasiona encontrar soluciones a problemas complejos y trabajar en
+              equipo para llevar nuestras ideas a la realidad. Creo firmemente
+              que el aprendizaje continuo es la clave para el éxito,
+              comprometido a seguir creciendo y mejorando en mi carrera.
+            </p>
+            <ul class="about__list">
+              <div style="display: block">
+                <h1 style="text-decoration: underline">
+                  Ultimo trabajo realizado:
+                </h1>
+                <br />
+                <p style="padding-bottom: 0.4em">
+                  <span style="font-weight: bold">Empresa:</span> Move S.A.C
+                </p>
+                <p style="padding-bottom: 0.4em">
+                  <span style="font-weight: bold">Tiempo:</span> 06/23 - 04/24
+                </p>
+                <p><span style="font-weight: bold">Responsabilidad:</span></p>
+                <p style="padding-left: 2em">- Desarrollo del Frontend</p>
+                <p style="padding-left: 2em">- Maquetacion en Figma</p>
+                <p style="padding-left: 2em">- Fotografia para los recursos</p>
+                <p style="padding-left: 2em">- Inventario y Stock</p>
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/carlos-daniel-vega-ramirez-1b39172a4/"
+                  target="_blank"
+                  class="button__ghost"
+                >
+                  <i class="ri-linkedin-box-fill"></i> Ver web
+                </a>
+              </div>
+            </ul>
+            <div class="about__buttons">
+              <h1 style="text-decoration: underline">Mis estudios:</h1>
+              <br />
+              <a href="##" class="button" onclick="showCarousel()">
+                <i class="ri-expand-diagonal-2-line"></i> Mostrar
+              </a>
             </div>
-        </section>
-        <section class="services section"  id="services">
+          </div>
+        </div>
+        <div class="carousel-container" id="carouselContainer">
+          <button class="close-button" onclick="closeCarousel()">
+            <i class="ri-close-circle-line"></i>
+          </button>
+          <div class="carousel" id="carousel">
+            <img src="imagen1.jpg" alt="Imagen 1" id="carouselImage" />
+            <div class="carousel-buttons">
+              <button onclick="prevImage()">
+                <i class="ri-arrow-left-circle-line"></i>
+              </button>
+              <button onclick="nextImage()">
+                <i class="ri-arrow-right-circle-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services section" id="services">
+        <h2 class="section__title-2">
+          <span> Habilidades. </span>
+        </h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-window-line"></i>
+              </div>
+              <h2 class="services__title">Desarrollo Web</h2>
+
+              <div style="display: block">
+                <h3>Html</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded">100%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>CSS</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded2">95%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>JavaScript</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded3">85%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Tailwind</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded4">80%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>React</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded5">75%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Next.Js</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded6">60%</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-palette-line"></i>
+              </div>
+              <h2 class="services__title">Diseño Grafico</h2>
+
+              <div style="display: block">
+                <h3>Canva</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded">100%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>PhotoShop</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded7">90%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Figma</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded5">75%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Ilustrator</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded8">70%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Corel Draw</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded6">60%</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-video-on-line"></i>
+              </div>
+              <h2 class="services__title">Animacion</h2>
+              <div style="display: block">
+                <h3>Filmora</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded7">90%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>After Effects</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded5">75%</div>
+                </div>
+              </div>
+              <div style="display: block">
+                <h3>Premiere Pro</h3>
+                <div class="skill-container">
+                  <div class="skill-bar loaded6">60%</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span> Proyectos. </span>
+        </h2>
+        <div class="projects__container container grid">
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                id="projectImage"
+                src="/archivos/img/jordan1.png"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="#"
+                class="projects__button button"
+                onclick="event.preventDefault();"
+              >
+                <i class="ri-html5-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">
+                Sitios Web |
+                <span style="background-color: orange; color: black">
+                  Html, Css, Js
+                </span>
+              </h3>
+              <h2 class="projects__title">Web's con HTML, Css y Js</h2>
+
+              <p class="projects__description">
+                Diferentes proyectos hechos con html, css y js, usando
+                diferentes recursos siendo responsive con diseños minimalistas.
+              </p>
+            </div>
+
+            <div class="projects__buttons2">
+              <a
+                href="#"
+                target="_blank"
+                class="projects__link2"
+                onclick="event.preventDefault();"
+              >
+                Desplegar <i class="ri-corner-right-down-line"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-                <span> Habilidades. </span>
+              <span> Contactame. </span>
             </h2>
-            <div class="services__container container grid">
 
-                <article class="services__card">
-                    <div class="services__border"></div>
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                                <i class="ri-window-line"></i>
-                        </div>
-                        <h2 class="services__title">Desarrollo Web</h2>
+            <p class="contact__description-1">
+              Leeré todos los correos electrónicos. envíame cualquiera mensaje
+              que quieras y me comunicaré contigo
+            </p>
+            <p class="contact__description-2">
+              Necesito tu <b>Nombre</b> y tu <b>Direccion de correo</b>, pero no
+              recibirás nada más que tu respuesta
+            </p>
+            <div class="geometric-box"></div>
+          </div>
 
-                        <div style="display: block;">
-                            <h3>Html</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded">100%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>CSS</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded2">95%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>JavaScript</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded3">85%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Tailwind</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded4">80%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>React</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded5">75%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Next.Js</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded6">60%</div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                                <i class="ri-palette-line"></i>
-                        </div>
-                        <h2 class="services__title">Diseño Grafico</h2>
-
-                        <div style="display: block;">
-                            <h3>Canva</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded">100%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>PhotoShop</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded7">90%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Figma</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded5">75%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Ilustrator</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded8">70%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Corel Draw</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded6">60%</div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                                <i class="ri-video-on-line"></i>
-                        </div>
-                        <h2 class="services__title"> Animacion </h2>
-                        <div style="display: block;">
-                            <h3>Filmora</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded7">90%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>After Effects</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded5">75%</div>
-                            </div>
-                        </div>
-                        <div style="display: block;">
-                            <h3>Premiere Pro</h3>
-                            <div class="skill-container">
-                                <div class="skill-bar loaded6">60%</div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        
-
-        <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-                <span> Proyectos. </span>
-            </h2>
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img id="projectImage" src="/archivos/img/jordan1.png" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-html5-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: orange; color: black;"> Html, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Jordan Ecommerce </h2>
-
-                        <p class="projects__description">
-                            Ecommerce de zapatillas, usando filtros de busqueda por 
-                            productos y tiendas cercanas, con diseño minimalista.
-                        </p>
-                    </div>
-                    
-                    <div class="projects__buttons">
-                        <a href="https://github.com/DanielVega1203/Shop-Search-Bd" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=BRsQpXg7lAg" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img id="projectImage2" src="archivos/img/stride.png" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-html5-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: orange; color: black;"> Html, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Stride Shop </h2>
-                        <p class="projects__description">
-                            Shop de productos de diferentes marcas, usando filtros de busqueda por 
-                            productos y un login para comprar un producto.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://github.com/DanielVega1203/AdidasShop" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=E3JhA6X6C3s" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img id="projectImage3"  src="archivos/img/iShop.png" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-html5-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: orange; color: black;"> Html, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Apple Details</h2>
-                        <p class="projects__description">
-                            Slider de productos, con diseño en movimiento animado,
-                            dando como resultado los detalles del mismo.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=Wc2nNdfFk8A" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img id="projectImage4" src="archivos/img/fullstack.png" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-reactjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: aqua; color: black;"> React, Css, Js </span>  </h3>
-                        <h2 class="projects__title"> Reservations and News </h2>
-                        <p class="projects__description">
-                            Aplicacion web FullStack, dando como prioridad al frontend,
-                            con un sistema de reservas, login y register.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=FXV9HOYohmM" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="archivos/img/barber.jpg" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-reactjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: aqua; color: black;"> React, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Barbershop Magazine </h2>
-                        <p class="projects__description">
-                            Proyecto que realizas en el diseño y estructura.
-                            del trazado, mostrando el diseño a petición del cliente.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="archivos/img/house.jpg" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-reactjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: aqua; color: black;"> React, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Real Estate </h2>
-                        <p class="projects__description">
-                            Proyecto que realizas en el diseño y estructura.
-                            del trazado, mostrando el diseño a petición del cliente.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="archivos/img/dashboard.png" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-nextjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: greenyellow; color: black;"> Next, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Card Panel </h2>
-                        <p class="projects__description">
-                            Proyecto que realizas en el diseño y estructura.
-                            del trazado, mostrando el diseño a petición del cliente.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="archivos/img/movie.jpg" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-nextjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: greenyellow; color: black;"> Next, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Movies List </h2>
-                        <p class="projects__description">
-                            Proyecto que realizas en el diseño y estructura.
-                            del trazado, mostrando el diseño a petición del cliente.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="archivos/img/culture.jpg" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
-                            <i class="ri-nextjs-line"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle"> Sitio Web | <span style="background-color: greenyellow; color: black;"> Next, Css, Js </span> </h3>
-                        <h2 class="projects__title"> Country Locations </h2>
-                        <p class="projects__description">
-                            Proyecto que realizas en el diseño y estructura.
-                            del trazado, mostrando el diseño a petición del cliente.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="https://www.github.com/" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> Ver
-                        </a>
-                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
-                            <i class="ri-youtube-line"></i> Ver
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-        <section class="contact section" id="contact">
-            <div class="contact__container container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span> Contactame. </span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        Leeré todos los correos electrónicos. envíame cualquiera
-                        mensaje que quieras y me comunicaré contigo
-                    </p>
-                    <p class="contact__description-2">
-                        Necesito tu <b>Nombre</b> y tu <b>Direccion de correo</b>, 
-                        pero no recibirás nada más que tu respuesta
-                    </p>
-                    <div class="geometric-box"></div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Enviame un mensaje</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="Nombre completo"
+                  />
+                  <label for="name" class="contact__label">
+                    Nombre completo
+                  </label>
                 </div>
 
-                <div class="contact__mail">
-                    <h2 class="contact__title">
-                        Enviame un mensaje
-                    </h2>
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Nombre completo">
-                                <label for="name" class="contact__label"> Nombre completo </label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Correo">
-                                <label for="email" class="contact__label"> Correo </label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Asunto">
-                                <label for="subject" class="contact__label"> Asunto</label>
-                            </div>
-
-                            <div class="contact__box contact__area">
-                                <textarea name="user_message" id="message"class="contact__input" required placeholder="Mensaje"></textarea>
-                                <label for="message" class="contact__label"> Mensaje </label>
-                            </div>
-
-                            <p class="contact__message" id="contact-message"></p>
-
-                            <button type="submit" class="contact__button button">
-                                <i class="ri-mail-send-line"></i> Enviar Mensaje
-                            </button>
-                        </div>
-                    </form>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Correo"
+                  />
+                  <label for="email" class="contact__label"> Correo </label>
                 </div>
 
-                <div class="contact__social">
-                    <img src="archivos/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-                    <div class="contact__social-data">
-                        <div>
-                            <p class="contact__social-description-1">
-                                No envía correos electrónicos
-                            </p>
-                            <p class="contact__social-description-2">
-                                Escríbeme a mis redes sociales
-                            </p>
-                        </div>
-                        <div class="contact__social-links">
-                            <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-facebook-circle-line"></i>
-                            </a>
-
-                            <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                        </div>
-                    </div>
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_subject"
+                    class="contact__input"
+                    id="subject"
+                    required
+                    placeholder="Asunto"
+                  />
+                  <label for="subject" class="contact__label"> Asunto</label>
                 </div>
+
+                <div class="contact__box contact__area">
+                  <textarea
+                    name="user_message"
+                    id="message"
+                    class="contact__input"
+                    required
+                    placeholder="Mensaje"
+                  ></textarea>
+                  <label for="message" class="contact__label"> Mensaje </label>
+                </div>
+
+                <p class="contact__message" id="contact-message"></p>
+
+                <button type="submit" class="contact__button button">
+                  <i class="ri-mail-send-line"></i> Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img
+              src="archivos/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  No envía correos electrónicos
+                </p>
+                <p class="contact__social-description-2">
+                  Escríbeme a mis redes sociales
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/carlosdaniel.vega99/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/dnielwrld__/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/carlos-daniel-vega-ramirez-1b39172a4/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link"> Acerca de mi</a>
-                </li>
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link"> Acerca de mi</a>
+          </li>
 
-                <li>
-                    <a href="#services" class="footer__link"> Servicios </a>
-                </li>
+          <li>
+            <a href="#services" class="footer__link"> Servicios </a>
+          </li>
 
-                <li>
-                    <a href="#projects" class="footer__link"> Proyectos</a>
-                </li>
-            </ul>
-            <span class="footer__copy">
-                &#169; Todos los derechos reservados por 
-                <a href="">DcCode.</a>
-            </span>
-        </div>
+          <li>
+            <a href="#projects" class="footer__link"> Proyectos</a>
+          </li>
+        </ul>
+        <span class="footer__copy">
+          &#169; Todos los derechos reservados por
+          <a href="">DcCode.</a>
+        </span>
+      </div>
     </footer>
     <a href="" class="scroll_up" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
     <script src="archivos/js/scrollreveal.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script src="archivos/js/main.js"></script>
     <script src="archivos/js/certificacion.js"></script>
-</body>
+  </body>
 </html>

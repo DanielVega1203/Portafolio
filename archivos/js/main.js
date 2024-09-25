@@ -139,84 +139,34 @@ sr.reveal('.services__card, .projects__card', {interval: 100})
 
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
-        "archivos/img/jordan1.png",
-        "archivos/img/jordan2.png",
-        "archivos/img/jordan3.png",
-        "archivos/img/jordan4.png",
-        "archivos/img/jordan5.png",
-        "archivos/img/jordan6.png",
-        "archivos/img/jordan7.png",
-        "archivos/img/jordan8.png",
-        "archivos/img/jordan9.png"
-    ];
-
-    const images2 = [
-        "archivos/img/stride.png",
-        "archivos/img/stride2.png",
-        "archivos/img/stride3.png",
-        "archivos/img/stride4.png",
-        "archivos/img/stride5.png",
-        "archivos/img/stride6.png",
-        "archivos/img/stride7.png",
-        "archivos/img/stride8.png",
-        "archivos/img/stride9.png",
-        "archivos/img/stride10.png"
-    ];
-
-    const images3 = [
-        "archivos/img/iShop.png",
-        "archivos/img/iShop2.png",
-        "archivos/img/iShop3.png",
-        "archivos/img/iShop4.png"
-    ];
-
-    const images4 = [
-        "archivos/img/fullstack.png",
-        "archivos/img/fullstack2.png",
-        "archivos/img/fullstack3.png",
-        "archivos/img/fullstack4.png",
-        "archivos/img/fullstack5.png",
-        "archivos/img/fullstack6.png",
-        "archivos/img/fullstack7.png",
-        "archivos/img/fullstack8.png",
-        "archivos/img/fullstack9.png",
-        "archivos/img/fullstack10.png",
-        "archivos/img/fullstack11.png",
-        "archivos/img/fullstack12.png"
+        "archivos/img/html1.png",
+        "archivos/img/html2.png",
+        "archivos/img/html3.png",
+        "archivos/img/html4.png",
+        "archivos/img/html5.png",
+        "archivos/img/html6.png",
+        "archivos/img/html7.png",
+        "archivos/img/html8.png",
+        "archivos/img/html9.png",
+        "archivos/img/html10.png",
+        "archivos/img/html11.png",
+        "archivos/img/html12.png",
     ];
 
     let imageCarrusel = 0;
-    let imageCarrusel2 = 0;
-    let imageCarrusel3 = 0;
-    let imageCarrusel4 = 0;
 
     const projectImage = document.getElementById('projectImage');
-    const projectImage2 = document.getElementById('projectImage2');
-    const projectImage3 = document.getElementById('projectImage3');
-    const projectImage4 = document.getElementById('projectImage4');
 
     function changeImage() {
         projectImage.classList.add('fade-out');
-        projectImage2.classList.add('fade-out');
-        projectImage3.classList.add('fade-out');
-        projectImage4.classList.add('fade-out');
 
         setTimeout(() => {
+            
             imageCarrusel = (imageCarrusel + 1) % images.length;
-            imageCarrusel2 = (imageCarrusel2 + 1) % images2.length;
-            imageCarrusel3 = (imageCarrusel3 + 1) % images3.length;
-            imageCarrusel4 = (imageCarrusel4 + 1) % images4.length;
-
 
             projectImage.src = images[imageCarrusel];
-            projectImage2.src = images2[imageCarrusel2];
-            projectImage3.src = images3[imageCarrusel3];
-            projectImage4.src = images4[imageCarrusel4];
 
             projectImage.classList.remove('fade-out');
-            projectImage2.classList.remove('fade-out');
-            projectImage3.classList.remove('fade-out');
-            projectImage4.classList.remove('fade-out');
 
         }, 1000);
     }
