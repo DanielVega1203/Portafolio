@@ -1031,7 +1031,9 @@ body.dark-theme {
 .projects__link2 {
   display: flex;
   align-items: center;
-  column-gap: 0.25rem;
+  justify-content: center;
+  width: 150px;
+  column-gap: 0.70rem;
   color: var(--text-color);
   font: var(--small-font-size);
   font-weight: var(--font-medium);
@@ -1044,20 +1046,65 @@ body.dark-theme {
   border: 3px solid var(--first-color);
 }
 
-.projects__link i {
+.projects__link2.cerrar {
+  border: 3px solid var(--first-color);
+}
+
+.projects__link2 i {
   font-size: 1rem;
   color: var(--title-color);
   transition: color 0.4s;
+  animation: breathe 2.5s infinite; 
 }
 
-.projects__link:hover,
-.projects__link:hover i {
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(1.2); 
+  }
+}
+
+.projects__link2:hover,
+.projects__link2:hover i {
   color: var(--first-color);
+}
+
+.projects__link2Falta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  column-gap: 0.70rem;
+  color: var(--text-color);
+  font: var(--small-font-size);
+  font-weight: var(--font-medium);
+  padding: 15px;
+  border: 3px solid black;
+  transition: all 0.4s ease;
 }
 
 .projects__card:hover {
   background-color: var(--white-color);
 }
+
+.projects__extra-cards {
+  display: none; /* Oculto inicialmente */
+  margin-top: 15px; /* Espacio entre el artículo y las cards */
+}
+
+.projects__extra-cards.active {
+  display: block; /* Mostrar cuando está activo */
+}
+
+.projects__extra-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px; /* Espacio entre las cards */
+}
+
 /*=============== CONTACT ===============*/
 .contact {
   padding-bottom: 0;
